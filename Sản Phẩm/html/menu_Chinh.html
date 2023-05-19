@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Menu Chính McDonald's™</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" href="../css/font-awesome/css-icon/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark size_nav">
+        <div class="container">
+            <a class="navbar-branch logo_1" onclick="history.go(0)">
+                <img style="margin: 0 40px 0 20px;" src="../images/logo-mcdonalds.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav tmenu-home">
+                    <li class="nav-item "><a class="navbar-link " href="../index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="navbar-link" href="dichVu.html">Tìm hiểu</a></li>
+                    <li class="nav-item"><a class="navbar-link" style="color: #ffc836;" href="menu_Chinh.html">Thực đơn</a></li>
+                    <li class="nav-item"><a class="navbar-link" href="khuyenMai.html">Khuyến mãi</a></li>
+                    <li class="nav-item"><a class="navbar-link" href="tinTuc.html">Tin tức</a></li>
+                    <li class="nav-item"><a class="navbar-link" href="lienHe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="size_heThong_giaoHang">
+                <div class="check_in" onclick="location.href='https://mcdonalds.vn/cua-hang.html'">
+                    <img class="left" src="../images/location.png">
+                    <p class="text_heThong_giaoHang">Hệ thống<br><span class="span_heThong_giaoHang">Cửa Hàng</span></p>
+                </div>
+                <div class="check_in" onclick="location.href='https://mcdelivery.vn/'">
+                    <img class="left" src="../images/delivery-menu.png">
+                    <p class="text_heThong_giaoHang">Giao Hàng<br><span class="span_heThong_giaoHang">McDelivery</span></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid nopadding">
+        <div class="col-md-12 nopadding">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="../images/mgtd_homeslide.jpg" class="size_img_slides">
+                </div>
+                <div class="mySlides">
+                    <img src="../images/slider.jpg" class="size_img_slides">
+                </div>
+                <div class="mySlides">
+                    <img src="../images/TOW_homeslide.jpg" class="size_img_slides">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid size_menu_chinh">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 menu_chinh_zone_1">
+                    <a href="menu_Chinh.html">
+                        <h3>Menu Chính</h3>
+                    </a>
+                </div>
+                <div class="col-md-4 menu_chinh_zone_2">
+                    <a href="menu_diemTam.html">
+                        <h3>Menu Điểm Tâm</h3>
+                    </a>
+                </div>
+                <div class="col-md-4 menu_chinh_zone_2">
+                    <a href="mc_cafe.html">
+                        <h3>Mc Cafe</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Phần ăn EVM</h3>
+                    <p>Phần ăn 1 gồm khoai và nước cho 1 người, tiết kiệm tới 29%</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_1.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Cơm</h3>
+                    <p>Cơm thịt bò, thịt heo và thịt gà</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_2.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Combo</h3>
+                    <p>Nhiều sự lựa chọn, tiết kiệm đến 25% so với mua lẻ</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_3.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Bánh Burgers</h3>
+                    <p>Bánh Burgers trứ danh, Big Mac</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_4.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Gà rán</h3>
+                    <p>Gà rán lớn giòn da thấm thit và McNuggets, McWings</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_5.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Thức uống</h3>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_6.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Tráng miệng</h3>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_7.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Phần ăn cho bé</h3>
+                    <p>Phần ăn 68K gồm Món chính + Khoai + Nước uống và đồ chơi</p>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_8.png">
+                </div>
+            </div>
+            <div class="col-md-6 row content_flex">
+                <div class="col-md-6 content_margin_auto">
+                    <h3>Món ăn nhẹ</h3>
+                    <a class="link_khamPha" href="#">Khám Phá</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/menu_chinh_9.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="height: 300px; border-top:1px solid #ccc ;" class="container">
+        <div class="row">
+            <div class="col-md-12 row">
+                <div style="padding-left: 0px;" class="col-md-3">
+                    <!-- Tìm hiểu -->
+                    <ul style="padding-left: 0px;">
+                        <li class="text_footer-Big">Tìm hiểu</li>
+                        <li><a href="#">Lịch sử McDonald's</a></li>
+                        <li><a href="#">Giới thiệu McDonald's Việt Nam</a></li>
+                        <li><a href="#">Xuất xứ</a></li>
+                        <li><a href="#">Nhà cung cấp</a></li>
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="#">An toàn thực phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <!-- Cơ hội nghề nghiệp -->
+                    <ul>
+                        <li class="text_footer-Big">Cơ hội nghề nghiệp</li>
+                        <li><a href="#">Thông tin tuyển dụng</a></li>
+                        <li><a href="#">Khu vực TP.HCM</a></li>
+                        <li><a href="#">Khu vực Hà Nội</a></li>
+                    </ul>
+                </div>
+                <div style="padding-right: 0px;" class="col-md-3">
+                    <!-- Chính sách -->
+                    <ul>
+                        <li class="text_footer-Big">Chính sách</li>
+                        <li><a href="#">Các câu hỏi thường gặp</a></li>
+                        <li><a href="#">Điều khoản và Điều kiện</a></li>
+                        <li><a href="#">Chính sách về quyền riêng tư</a></li>
+                        <li class="text_footer-Big">Ngôn ngữ</li>
+                        <li>
+                            <a href="index-us.html"><img src="../images/united-states.png"></a>
+                            <a href="#"><img src="../images/vietnam.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <!-- Liên hệ với chúng tôi -->
+                    <ul>
+                        <li class="text_footer-Big">Liên hệ với chúng tôi</li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Phản hồi chất lượng dịch vụ</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/McDonaldsVN/"><img src="../images/facebook.png"></a>
+                            <a href="https://www.instagram.com/mcdonaldsvn/"><img src="../images/instagram.png"></a>
+                            <a href="https://www.youtube.com/user/McDonaldsVN/featured"><img src="../images/youtube.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>
